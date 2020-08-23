@@ -49,6 +49,7 @@ function App() {
         >
           Obtener frase
         </button>
+        {/* tenemos que poner en el onClick una funcion anonima porque sino cada vez que se carga en el DOM se "produce" un click*/}
       </article>
       {componenteCondicional}
     </div>
